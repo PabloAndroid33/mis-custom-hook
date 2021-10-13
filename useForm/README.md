@@ -1,6 +1,13 @@
-#Notas
+#UseForm
 
-Este repositorio contiene varios customHoioks para ayudarme a mi 
-y aquien le sirva, estos hooks
 
-Tambien la idea es que yo no quiero volver a escribirlos.
+Ejemplo:
+````
+        const initialForm={
+            name:'',
+            age=0,
+            email=''
+        }
+        const [value,handleInputChange,resetInput]=useForm(initialForm);
+
+````
